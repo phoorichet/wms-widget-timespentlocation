@@ -3,7 +3,7 @@ require "wms/widget/timespentlocation/version"
 module Wms
   module Widget
     module Timespentlocation
-      # Your code goes here...
+      autoload :Main, 'wms/widget/timespentlocation/main'
     end
   end
 end
