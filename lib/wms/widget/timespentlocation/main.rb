@@ -27,6 +27,8 @@ require 'wms'
 #
 
 class Wms::Widget::Timespentlocation::Main < Wms::Widget::Base
+  RUN_INVERVAL = 1 * 60 # in seconds
+
   include Wms::Api::Event
   include Wms::Api::Analytic
   
