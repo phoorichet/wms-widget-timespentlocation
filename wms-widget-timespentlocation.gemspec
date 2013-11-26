@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["phoorichet.t@gmail.com"]
   spec.description   = %q{A WMS widget that calculates time spent in locations}
   spec.summary       = %q{Experiment WMS widget}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/phoorichet/wms-widget-timespentlocation"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

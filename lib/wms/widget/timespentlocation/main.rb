@@ -56,8 +56,8 @@ class Wms::Widget::Timespentlocation::Main < Wms::Widget::Base
     options = {
       #:device_id => "12345678",
       :type => "location",
-      :begin => @begin,
-      :end => @end
+      # :begin => @begin,
+      # :end => @end
     }
 
     @events = get_events(options)
@@ -67,7 +67,7 @@ class Wms::Widget::Timespentlocation::Main < Wms::Widget::Base
       nxt = @events[i + 1]
 
       analytic = {
-        :device_id => "123456789",
+        :device_id => cur["device_id"],
         :widget_id => @widget.id,
         :user_id => @widget.user.id,
         :timestamp => Time.now,
