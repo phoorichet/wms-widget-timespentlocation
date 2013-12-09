@@ -1,6 +1,6 @@
 # Wms::Widget::Timespentlocation
 
-TODO: Write a gem description
+A widget for [WMS](https://github.com/phoorichet/wms). It reads "location" events and caculate time spent between a two adjacent cordinates.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem will be called by WMS.
 
 ## Contributing
 
